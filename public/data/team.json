@@ -1,0 +1,38 @@
+[
+	{
+		"id": "aden-ahmad-rifai",
+		"nama": "Aden Ahmad Rifai",
+		"posisi": "Kurir",
+		"foto": "anjing.jpeg"
+	},
+	{
+		"id": "mada-dwi-saputra-2",
+		"nama": "Mada Dwi Saputra ",
+		"posisi": "Purchase Order",
+		"foto": "duy2.jpg"
+	},
+	{
+		"id": "muhammad-syahril-aziz-3",
+		"nama": "Muhammad Syahril Aziz ",
+		"posisi": "Invoice",
+		"foto": "anjing.jpeg"
+	},
+	{
+		"id": "miko-dwi-oktafian-4",
+		"nama": "Miko Dwi Oktafian ",
+		"posisi": "Invoice",
+		"foto": "anjing.jpeg"
+	},
+	{
+		"id": "ariel-zulfikar-ardiansyah-5",
+		"nama": "Ariel zulfikar ",
+		"posisi": "Invoice",
+		"foto": "c.jpeg"
+	},
+	{
+		"id": "ahmad-abdul-latief-6",
+		"nama": "Ahmad Abdul Latief ",
+		"posisi": "Invoice",
+		"foto": "a.jpeg"
+	}
+]

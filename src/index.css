@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+   scroll-behavior: smooth;
+}
+
+@layer base {
+   .main-container {
+      @apply relative overflow-x-hidden font-['Poppins'] flex justify-between flex-col min-h-screen;
+   }
+
+   section {
+      scroll-margin-top:  3.2rem;
+   }
+}
+
+@layer components {
+   /*! Navbar */
+   .nav {
+      @apply fixed top-0 w-full py-4 z-[9999] transition-all duration-300;
+   }
+
+   .nav.scroll {
+      @apply bg-white;
+   }
+
+   .nav__container {
+      @apply container flex items-center justify-between relative;
+   }
+
+   .nav__menu {
+      @apply w-full flex md:items-center;
+   }
+
+   .nav__brand {
+      @apply font-bold text-gray-800;
+   }
+
+   .nav__brand-mobile {
+      @apply md:hidden block w-full;
+   }
+
+   .nav__brand-desktop {
+      @apply md:block hidden;
+   }
+
+   .nav__collapse {
+      @apply bg-transparent absolute md:static w-full max-w-full flex md:flex-row flex-col md:items-center md:justify-end left-0 md:shadow-none md:p-0 rounded-md top-[calc(100%+1rem)] px-[2rem] py-5 space-y-4 md:space-y-0 -translate-y-60 md:opacity-100 md:translate-y-0 opacity-0 md:pointer-events-auto pointer-events-none transition-all duration-500;
+   }
+
+   .nav__collapse.show {
+      @apply translate-y-0 opacity-100 pointer-events-auto bg-white;
+   }
+
+   .nav__toggle {
+      @apply space-y-1 md:hidden block ml-auto;
+   }
+
+   .nav__toggle span {
+      @apply block w-[25px] h-[3px] rounded-full bg-gray-800 transition-all duration-500;
+   }
+
+   .nav__toggle span:nth-child(1) {
+      @apply origin-top-left;
+   }
+
+   .nav__toggle.active span:nth-child(1) {
+      @apply rotate-45 translate-x-[-1px] translate-y-[-2px];
+   }
+
+   .nav__toggle span:nth-child(1), .nav__toggle span:nth-child(3) {
+      @apply rotate-0 translate-y-0 translate-x-0;
+   }
+   
+   .nav__toggle span:nth-child(3) {
+      @apply origin-bottom-left;
+   }
+
+   .nav__toggle.active span:nth-child(3) {
+      @apply -rotate-45 translate-x-[-1px] translate-y-[1px];
+   }
+
+   .nav__toggle span:nth-child(2) {
+      @apply scale-100;
+   }
+
+   .nav__toggle.active span:nth-child(2) {
+      @apply  scale-0;
+   }
+
+   .nav__link {
+      @apply md:text-sm inline-block font-medium text-gray-500 hover:text-primary transition-all duration-300;
+   }
+
+   .nav__link.active {
+      @apply text-primary;
+   }
+
+   .nav__links {
+      @apply flex md:flex-row flex-col md:items-center md:space-x-6 md:space-y-0 space-y-2;
+   }
+   /*! End Navbar */
+} 

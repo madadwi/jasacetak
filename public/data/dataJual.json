@@ -1,0 +1,285 @@
+[
+    {
+        "id": "polaroid",
+        "judul": "Cetak Foto Polaroid",
+        "paket": [
+            {
+                "namaPaket": "Paket 1",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Art 260g"
+                    }
+                ],
+                "harga": "11.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 2",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Art 310g"
+                    }
+                ],
+                "harga": "15.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "stiker",
+        "judul": "Cetak Stiker",
+        "paket": [
+            {
+                "namaPaket": "Paket 1",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Chromo"
+                    }
+                ],
+                "harga": "13.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Cutting",
+                            "hargaJasa": "20.000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 2",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Exilo"
+                    }
+                ],
+                "harga": "15.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Cutting",
+                            "hargaJasa": "20.000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 3",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Vinly"
+                    }
+                ],
+                "harga": "16.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Cutting",
+                            "hargaJasa": "20.000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 4",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Ritrama"
+                    }
+                ],
+                "harga": "65.000",
+                "orderPer": "lembar",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Potong",
+                            "hargaJasa": "5000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Cutting",
+                            "hargaJasa": "20.000",
+                            "jasaPer": "lembar"
+                        },
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "banner",
+        "judul": "Cetak Banner",
+        "paket": [
+            {
+                "namaPaket": "Paket 1",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan China 240g"
+                    }
+                ],
+                "harga": "35.000",
+                "orderPer": "meter",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 2",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan China 340g"
+                    }
+                ],
+                "harga": "45.000",
+                "orderPer": "meter",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            },
+            {
+                "namaPaket": "Paket 3",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Korea 440g"
+                    }
+                ],
+                "harga": "55.000",
+                "orderPer": "meter",
+                "jasaTambahan": {
+                    "status": true,
+                    "jasa": [
+                        {
+                            "namaJasa": "Jasa Desain",
+                            "hargaJasa": "15.000",
+                            "jasaPer": "desain"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "kartu-nama",
+        "judul": "Cetak Kartu Nama",
+        "paket": [
+            {
+                "namaPaket": "Paket 1",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Fiber Glass"
+                    }
+                ],
+                "harga": "30.000",
+                "orderPer": "pcs",
+                "jasaTambahan": {
+                    "status": false
+                }
+            },
+            {
+                "namaPaket": "Paket 2",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Art 260g"
+                    }
+                ],
+                "harga": "30.000",
+                "orderPer": "100pcs",
+                "jasaTambahan": {
+                    "status": false
+                }
+            },
+            {
+                "namaPaket": "Paket 3",
+                "fitur": [
+                    {
+                        "namaFitur": "Bahan Art 310g"
+                    }
+                ],
+                "harga": "55.000",
+                "orderPer": "100pcs",
+                "jasaTambahan": {
+                    "status": false
+                }
+            }
+        ]
+    }
+]
